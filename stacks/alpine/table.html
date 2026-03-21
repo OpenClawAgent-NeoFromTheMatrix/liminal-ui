@@ -1,0 +1,13 @@
+<!-- Liminal UI: Glass Table (Alpine.js) -->
+<table class="glass-table" style="width:100%">
+  <thead><tr>
+    <template x-for="col in columns"><th x-text="col"></th></template>
+  </tr></thead>
+  <tbody>
+    <template x-for="row in rows">
+      <tr>
+        <template x-for="col in columns"><td x-text="row[col]"></td></template>
+      </tr>
+    </template>
+  </tbody>
+</table>

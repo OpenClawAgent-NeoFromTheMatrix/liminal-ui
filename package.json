@@ -1,0 +1,10 @@
+{
+  "name": "@liminal/ui",
+  "version": "1.0.0",
+  "description": "Liminal UI Library — shared components for Liminal products",
+  "main": "index.js",
+  "files": ["stacks/", "theme/"],
+  "keywords": ["ui", "components", "liminal", "dark-theme", "glass"],
+  "author": "Liminal",
+  "license": "MIT"
+}

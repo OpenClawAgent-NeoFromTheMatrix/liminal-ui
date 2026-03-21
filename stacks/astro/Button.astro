@@ -1,0 +1,6 @@
+---
+interface Props { variant?: string; size?: string; href?: string; }
+const { variant = 'primary', size = 'sm', href } = Astro.props;
+const Tag = href ? 'a' : 'button';
+---
+<Tag class={`btn btn--${variant} btn--${size}`} href={href}><slot /></Tag>

@@ -1,0 +1,9 @@
+---
+interface Props { items: { href: string; label: string; active?: boolean }[]; }
+const { items } = Astro.props;
+---
+<nav class="sidebar">
+  {items.map(item => (
+    <a href={item.href} class={`sidebar__link ${item.active ? 'sidebar__link--active' : ''}`}>{item.label}</a>
+  ))}
+</nav>

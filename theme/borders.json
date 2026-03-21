@@ -1,0 +1,31 @@
+{
+  "radius": {
+    "sm": 6,
+    "md": 12,
+    "lg": 16
+  },
+  "width": {
+    "default": 1,
+    "thick": 2
+  },
+  "semantic": {
+    "card": {
+      "width": "default",
+      "radius": "lg",
+      "color": "border.subtle"
+    },
+    "input": {
+      "width": "default",
+      "radius": "md",
+      "color": "border.subtle"
+    },
+    "button": {
+      "width": "default",
+      "radius": "md"
+    },
+    "badge": {
+      "width": "default",
+      "radius": "sm"
+    }
+  }
+}

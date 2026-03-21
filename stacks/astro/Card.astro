@@ -1,0 +1,8 @@
+---
+// Liminal UI: Glass Card (Astro)
+interface Props { class?: string; padding?: string; }
+const { class: className = '', padding = 'var(--space-md)' } = Astro.props;
+---
+<div class={`glass-card ${className}`} style={`padding:${padding}`}>
+  <slot />
+</div>

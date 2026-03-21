@@ -1,0 +1,6 @@
+<!-- Liminal UI: Sidebar Nav (Alpine.js) -->
+<nav class="sidebar">
+  <template x-for="item in navItems">
+    <a :href="item.href" class="sidebar__link" :class="{'sidebar__link--active': item.active}" x-text="item.label"></a>
+  </template>
+</nav>

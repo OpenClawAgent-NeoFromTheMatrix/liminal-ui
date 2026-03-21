@@ -1,0 +1,25 @@
+{
+  "unit": "px",
+  "scale": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48
+  },
+  "aliases": {
+    "sp-1": "xs",
+    "sp-2": "sm",
+    "sp-3": "12px",
+    "sp-4": "md",
+    "sp-5": "20px"
+  },
+  "semantic": {
+    "page-padding": "xl",
+    "card-padding": "lg",
+    "section-gap": "2xl",
+    "grid-gap": "md",
+    "element-gap": "sm"
+  }
+}
